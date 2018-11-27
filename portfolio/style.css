@@ -1,30 +1,30 @@
 @font-face {
   font-family: akrobat-black;
-  src: url("../fnt/Akrobat-Black.otf");
+  src: url("./Akrobat-Black.otf");
 }
 @font-face {
   font-family: akrobat-bold;
-  src: url("../fnt/Akrobat-Bold.otf");
+  src: url("./Akrobat-Bold.otf");
 }
 @font-face {
   font-family: akrobat-extrabold;
-  src: url("../fnt/Akrobat-ExtraBold.otf");
+  src: url("./Akrobat-ExtraBold.otf");
 }
 @font-face {
   font-family: akrobat-regular;
-  src: url("../fnt/Akrobat-Regular.otf");
+  src: url("./Akrobat-Regular.otf");
 }
 @font-face {
   font-family: akrobat-light;
-  src: url("../fnt/Akrobat-Light.otf");
+  src: url("./Akrobat-Light.otf");
 }
 @font-face {
   font-family: akrobat-extralight;
-  src: url("../fnt/Akrobat-ExtraLight.otf");
+  src: url("./Akrobat-ExtraLight.otf");
 }
 @font-face {
   font-family: akrobat-thin;
-  src: url("../fnt/Akrobat-Thin.otf");
+  src: url("./Akrobat-Thin.otf");
 }
 *{
   margin: 0;
@@ -60,7 +60,7 @@ p{
 .welcome{
   width: 100%;
   height: 849px;
-  background-image: url("../img/imagen-cabecera1.jpg");
+  background-image: url("./imagen-cabecera1.jpg");
   background-size: 100% 100%;
   display: flex;
   align-items: center;
