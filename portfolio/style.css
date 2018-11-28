@@ -31,8 +31,8 @@
   padding: 0;
 }
 html{
-/*  background-color: #374050;*/
-  background-color: #2E354E;
+  /*  background-color: #374050;*/
+
 }
 h1{
   /*color: #FF5245;*/
@@ -59,9 +59,9 @@ p{
 
 .welcome{
   width: 100%;
-  height: 849px;
+  height: 800px;
   background-image: url("./imagen-cabecera1.jpg");
-  background-size: 100% 100%;
+  background-size: 100% 849px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -72,4 +72,65 @@ p{
   height: 25%;
   flex-flow: column wrap;
   align-items: center;
+}
+.aboutme{
+  padding: 75px 0 75px 0;
+  width: 100%;
+  height: 800px;
+  background-color: #403B39;
+}
+.wewe{
+  border-bottom: solid #EE5242;
+  color: #FFFFFF;
+}
+.portfolio{
+  padding: 75px 0 75px 0;
+  width: 100%;
+  height: 800px;
+  background-color: #4A4443;
+}
+.contact{
+  padding: 75px 0 75px 0;
+  width: 100%;
+  height: 800px;
+  background-color: #403B39;
+}
+.navcont{
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  display:flex;
+  justify-content: center;
+}
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  width: 65%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  font-family: akrobat-bold;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  color: #69605E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #F4E6CD;
+  transition: 0.25s;
+}
+
+.current {
+  color: #FFFFFF;
 }
