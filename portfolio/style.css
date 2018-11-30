@@ -30,21 +30,7 @@
   margin: 0;
   padding: 0;
 }
-html{
-  /*  background-color: #374050;*/
 
-}
-h1{
-  /*color: #FF5245;*/
-}
-h2{
-  /*color: #2A8E9D;*/
-  color: #88D286;
-}
-p{
-  /*color: #FFC938;*/
-  color: #D6E06B;
-}
 .name{
   color: white;
   font-family: akrobat-extrabold;
@@ -73,27 +59,65 @@ p{
   flex-flow: column wrap;
   align-items: center;
 }
-.aboutme{
-  padding: 75px 0 75px 0;
-  width: 100%;
-  height: 800px;
-  background-color: #403B39;
+#reverse{
+  display: flex;
+  flex-direction: column-reverse;
 }
-.wewe{
-  border-bottom: solid #EE5242;
-  color: #FFFFFF;
-}
-.portfolio{
+.section0{
   padding: 75px 0 75px 0;
   width: 100%;
   height: 800px;
   background-color: #4A4443;
+  display: grid;
+  grid-template-columns: 12% 76% 12%;
 }
-.contact{
+.section1{
   padding: 75px 0 75px 0;
   width: 100%;
   height: 800px;
   background-color: #403B39;
+  display:grid;
+  grid-template-columns: 40%  50%;
+  grid-template-rows: 45% 45%;
+  grid-row-gap: 10%;
+  grid-column-gap: 3.5%;
+  justify-content: center;
+}
+
+
+#foto{
+  background-color: #EDAD53;
+  grid-column: 1/2;
+  grid-row:1/2;
+}
+#texto{
+  background-color: #EDAD53;
+  grid-column: 1/2;
+  grid-row:2/3;
+}
+#aptitudes{
+  background-color: #EE5242;
+  grid-column: 2/3  ;
+  grid-row:1/3;
+}
+
+#aboutme:hover ~ .navcont .navmenu #laboutme{
+  color:  #FFF0D6;
+}
+
+.wewe{
+  background-color: #EE5242;
+  color: #FFFFFF;
+  grid-column: 2/3;
+}
+
+#portfolio:hover ~ .navcont .navmenu #lportfolio{
+  color:  #FFF0D6;
+}
+
+
+#contact:hover ~ .navcont .navmenu #lcontact{
+  color:  #FFF0D6;
 }
 .navcont{
   position: sticky;
@@ -120,7 +144,7 @@ li {
 
 li a {
   display: block;
-  color: #69605E;
+  color: #786860;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -129,8 +153,4 @@ li a {
 li a:hover {
   color: #F4E6CD;
   transition: 0.25s;
-}
-
-.current {
-  color: #FFFFFF;
 }
